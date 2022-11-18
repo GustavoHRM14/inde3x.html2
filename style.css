@@ -144,20 +144,18 @@ nav a {
 form {
     margin: 40px 0;
 }
-
-form label {
+form label, form p {
     display:block;
     font-size: 20px;
     margin: 0 0 10px;
 }
-
-form input {
+    
+f.input-padrao {
     display: block;
     margin: 0 0 20px;
     padding: 10px 25px;
     width: 50%;
 }
-
     <label for="mensagem">Mensagem</label>
 <textarea cols="70" rows="10" id="mensagem" class="input-padrao"></textarea>
     <div>
@@ -174,4 +172,7 @@ form input {
     Gostaria de receber nossas novidades por email?
 </label>
     
+   .checkbox {
+    margin: 20px 0;
+}
     
