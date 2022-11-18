@@ -157,3 +157,21 @@ form input {
     padding: 10px 25px;
     width: 50%;
 }
+
+    <label for="mensagem">Mensagem</label>
+<textarea cols="70" rows="10" id="mensagem" class="input-padrao"></textarea>
+    <div>
+    <p>Qual horário prefere ser atendido?</p>
+    <select>
+        <option>Manhã</option>
+        <option>Tarde</option>
+        <option>Noite</option>
+    </select>
+</div>
+    
+   <label class="checkbox">
+    <input type="checkbox">
+    Gostaria de receber nossas novidades por email?
+</label>
+    
+    
