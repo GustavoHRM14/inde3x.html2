@@ -151,11 +151,12 @@ form {
 }
 }
     
-f.input-padrao {
+.input-padrao {
     display: block;
     margin: 0 0 20px;
     padding: 10px 25px;
     width: 50%;
+}
 }
     <label for="mensagem">Mensagem</label>
 <textarea cols="70" rows="10" id="mensagem" class="input-padrao"></textarea>
@@ -178,3 +179,12 @@ f.input-padrao {
     Gostaria de receber nossas novidades por email?
 </label>
     
+.checkbox {
+    margin: 20px 0;
+}
+
+form label {
+    display:block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
